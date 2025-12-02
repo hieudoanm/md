@@ -35,12 +35,8 @@ date: '2025-10-06'
   - [Full-stack](#full-stack)
     - [`@next-stack/ui`](#next-stackui)
       - [Components](#components)
-    - [`@next-stack/auth`](#next-stackauth)
     - [`@next-stack/server`](#next-stackserver)
   - [SaaS (Software as a Service)](#saas-software-as-a-service)
-    - [`@next-stack/email`](#next-stackemail)
-    - [`@next-stack/pay`](#next-stackpay)
-  - [Other](#other-1)
     - [`@next-stack/other`](#next-stackother)
 - [Ecosystem](#ecosystem)
 - [Inspired By](#inspired-by)
@@ -436,40 +432,11 @@ model User {
 | Typography | h6        |
 | Typography | p         |
 
-#### `@next-stack/auth`
-
-- Inspired By
-  - [Auth0](https://auth0.com/)
-  - [Auth.js](https://authjs.dev/)
-  - [BetterAuth](https://www.better-auth.com/)
-  - [Clerk](https://clerk.com/)
-- Single Sign-on (SSO)
-  - [Google](https://www.google.com/)
-  - [Facebook](https://www.facebook.com/)
-  - [X](https://www.x.com/)
-- [OAuth](https://oauth.net/)
-
 #### `@next-stack/server`
 
 - [ws](https://github.com/websockets/ws)
 
 ### SaaS (Software as a Service)
-
-#### `@next-stack/email`
-
-1. [MailChimp](https://www.mailchimp.com/)
-2. [MailGun](https://www.mailgun.com/)
-3. [SendGrid](https://sendgrid.com/)
-
-#### `@next-stack/pay`
-
-1. [Klarna](https://www.klarna.com/)
-2. [Paddle](https://www.paddle.com/)
-3. [Stripe](https://stripe.com/)
-   1. [Lemon Squeezy](https://www.lemonsqueezy.com/)
-4. [Paypal](https://www.paypal.com/)
-
-### Other
 
 #### `@next-stack/other`
 
