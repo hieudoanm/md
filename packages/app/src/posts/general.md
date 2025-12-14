@@ -13,7 +13,6 @@ date: '2025-05-01'
   - [Programming Courses](#programming-courses)
   - [Programming Languages](#programming-languages)
   - [Programming Tools](#programming-tools)
-- [Habits vs Routines](#habits-vs-routines)
 - [Maslow's hierarchy of needs](#maslows-hierarchy-of-needs)
 - [Mathematics](#mathematics)
   - [PI (π)](#pi-π)
@@ -104,17 +103,6 @@ date: '2025-05-01'
   - [Sequence Diagram](https://sequencediagram.org)
 
 [raspberrypi]: https://www.raspberrypi.com/
-
-## Habits vs Routines
-
-| Feature       | Habit                     | Routine                      |
-| ------------- | ------------------------- | ---------------------------- |
-| Consciousness | Mostly automatic          | Mostly deliberate            |
-| Trigger       | Specific cue or context   | Scheduled or intentional     |
-| Complexity    | Usually single actions    | Often a series of actions    |
-| Effort        | Low                       | Moderate to high             |
-| Example       | Buckling your seatbelt    | Morning workout + breakfast  |
-| Changeability | Hard to break once formed | Easier to adjust or redesign |
 
 ## Maslow's hierarchy of needs
 
