@@ -16,7 +16,6 @@ date: '2025-05-01'
 - [Maslow's hierarchy of needs](#maslows-hierarchy-of-needs)
 - [Mathematics](#mathematics)
   - [Perfect Numbers](#perfect-numbers)
-- [API](#api)
   - [Other](#other)
 - [Chip](#chip)
   - [Companies](#companies)
@@ -24,10 +23,9 @@ date: '2025-05-01'
   - [Full-stack](#full-stack)
     - [`@next-stack/ui`](#next-stackui)
       - [Components](#components)
-- [Ecosystem](#ecosystem)
 - [Inspired By](#inspired-by)
   - [JavaScript / TypeScript](#javascript--typescript)
-- [Techstack](#techstack-1)
+- [Techstack List](#techstack-list)
 
 ## Bookmarks
 
@@ -100,7 +98,6 @@ date: '2025-05-01'
 | Hardware | C++      | Microcontroller |          | [Arduino](https://www.arduino.cc/) |      |
 | Hardware | Python   | Mini Computer   |          | [Raspberry PI][raspberrypi]        |      |
 | Software | C++      | Front-end       |          | [Qt](https://www.qt.io/)           |      |
-| Software | HTML     |                 |          | [HTMX](https://htmx.org/)          |      |
 
 ### Programming Tools
 
@@ -185,12 +182,6 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 | 9   | 2,658,455,991,569,831,744,654,692,615,953,842,176                       |
 | 10  | 191,561,942,608,236,107,294,793,378,084,303,638,130,997,321,548,169,216 |
 
-## API
-
-| #   | Group | Name               | Open Source          | Maintainer | Language |
-| --- | ----- | ------------------ | -------------------- | ---------- | -------- |
-| 1   | API   | [Swagger][swagger] | [GitHub][gh-swagger] |            | [JS][js] |
-
 ### Other
 
 | No  | Category  | API                                             |
@@ -252,21 +243,6 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 | Typography | h6        |
 | Typography | p         |
 
-## Ecosystem
-
-| #   | Type         | Google                            | Microsoft  | Best    |
-| --- | ------------ | --------------------------------- | ---------- | ------- |
-| 1   | AI           | Gemini                            | Copilot    | ChatGPT |
-| 2   | Calendar     | _Calendar_                        | _Calendar_ |         |
-| 3   | Email        | Gmail                             | Outlook    |         |
-| 4   | Document     | Docs                              | Words      |         |
-| 5   | Table        | Sheets                            | Excel      |         |
-| 6   | Presentation | Slides                            | PowerPoint |         |
-| 7   | Storage      | [Drive](https://drive.google.com) | OneDrive   | Dropbox |
-| 8   | Video        | Meet                              | Teams      | Zoom    |
-| 9   | Messaging    | Chat                              | Teams      | Slack   |
-| 10  | Notes        | Keep                              | OneNote    |         |
-
 ## Inspired By
 
 ### JavaScript / TypeScript
@@ -275,12 +251,7 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 
 [js]: https://www.javascript.com
 
-<!-- Languages -->
-
-[swagger]: https://swagger.io
-[gh-swagger]: https://github.com/swagger-api
-
-## Techstack
+## Techstack List
 
 | Industry    | Supersector        | Sector             | Subsector               | Technology                       | Open Source                 | Maintainer           | Language   | Recommended |
 | ----------- | ------------------ | ------------------ | ----------------------- | -------------------------------- | --------------------------- | -------------------- | ---------- | ----------- |
@@ -348,10 +319,6 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 [macos]: https://www.apple.com/macos
 [materializecss]: https://materializecss.com
 [math.js]: https://mathjs.org
-[mercurial]: https://www.mercurial-scm.org
-[mercurius]: https://mercurius.dev
-[meta]: https://developers.facebook.com
-[meteor]: https://www.meteor.com
 [ml5]: https://ml5js.org
 [mocha]: https://mochajs.org
 [mongoose]: https://mongoosejs.com
