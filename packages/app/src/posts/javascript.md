@@ -6,330 +6,76 @@ date: '2025-05-01'
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [Abbreviation](#abbreviation)
-- [Nominations](#nominations)
-  - [Monorepos](#monorepos)
-  - [Test](#test)
-  - [Bundlers](#bundlers)
-  - [CSS Components](#css-components)
-  - [React Components](#react-components)
-  - [Native](#native)
-  - [Back-end Frameworks](#back-end-frameworks)
 - [Techstack](#techstack)
-- [References](#references)
-
-## Abbreviation
-
-- AI : Artificial Intelligence
-- AWS : Amazon Web Services
-- BaaS : Back-end as a Service
-- CI/CD : Continuous Integration / Continuous Delivery
-- CLI : Command Line Interface
-- CSR : Client-side Rendering
-- CSS : Cascading Style Sheets
-- E2E : End-to-end
-- IaC : Infrastructure as Code
-- IaaS : Infrastructure as a Service
-- IDE : Integrated Development Environment
-- JS : JavaScript
-- LLM : Large Language Model
-- MVC : Model-View-Controller
-- PaaS : Platform as a Service
-- ORM : Object Relational Mapping
-- OS : Operating System
-- RPC : Remote Procedure Call
-- SaaS : Software as a Service
-- SASS : Syntactically Awesome Style Sheets
-- SSG : Static Site Generation
-- SSR : Server-Side Rendering
-- TS : TypeScript
-- UI : User Interface
-
-[⬆️ Back to Table of Contents](#table-of-contents)
-
-## Nominations
-
-### Monorepos
-
-| Industry    | Supersector       | Sector   | Subsector | Technology                         | Open Source               | Maintainer       | Language   | Recommended |
-| ----------- | ----------------- | -------- | --------- | ---------------------------------- | ------------------------- | ---------------- | ---------- | ----------- |
-| Development | Development Tools | Monorepo |           | [Bit][bit]                         | [GitHub][gh-bit]          |                  | [TS][ts]   |             |
-| Development | Development Tools | Monorepo |           | [NX][nx]                           | [GitHub][gh-nx]           |                  | [TS][ts]   |             |
-| Development | Development Tools | Monorepo |           | [Lerna][lerna]                     | [GitHub][gh-lerna]        |                  | [TS][ts]   |             |
-| Development | Development Tools | Monorepo |           | [pnpm Workspaces][pnpm-workspaces] | [GitHub][gh-pnpm]         |                  | [TS][ts]   |             |
-| Development | Development Tools | Monorepo |           | [Turbo][turbo]                     | [GitHub][gh-vercel-turbo] | [Vercel][vercel] | [Rust][rs] | Recommended |
-| Development | Development Tools | Monorepo |           | [Yarn Workspaces][yarn-workspaces] | [GitHub][gh-yarn]         |                  | [TS][ts]   |             |
-
-[⬆️ Back to Table of Contents](#table-of-contents)
-
-### Test
-
-### Bundlers
-
-| Industry    | Supersector | Sector  | Subsector | Technology         | Open Source          | Maintainer | Language   | Recommended |
-| ----------- | ----------- | ------- | --------- | ------------------ | -------------------- | ---------- | ---------- | ----------- |
-| Development | Build Tools | Bundler |           | [ESBuild][esbuild] | [GitHub][gh-esbuild] |            | [Go][go]   |             |
-| Development | Build Tools | Bundler |           | [Parcel][parceljs] | [GitHub][gh-parcel]  |            | [JS][js]   |             |
-| Development | Build Tools | Bundler |           | [Rollup][rollup]   | [GitHub][gh-rollup]  |            | [JS][js]   |             |
-| Development | Build Tools | Bundler |           | [Rspack][rspack]   | [GitHub][gh-rspack]  |            | [Rust][rs] |             |
-| Development | Build Tools | Bundler |           | [Webpack][webpack] | [GitHub][gh-webpack] |            | [JS][js]   | Recommended |
-
-[⬆️ Back to Table of Contents](#table-of-contents)
-
-### CSS Components
-
-| Industry  | Supersector | Sector     | Subsector                  | Technology                        | Open Source                  | Maintainer | Language     | Recommended |
-| --------- | ----------- | ---------- | -------------------------- | --------------------------------- | ---------------------------- | ---------- | ------------ | ----------- |
-| Front-end | Styling     | Components | [TailwindCSS][tailwindcss] | [DaisyUI][daisyui]                | [GitHub][gh-daisy-ui]        |            | CSS          | Recommended |
-| Front-end | Styling     | Components | [TailwindCSS][tailwindcss] | [TailwindUI][tailwind-ui]         | Freemium                     |            |              |             |
-| Front-end | Styling     | Components | Toolkit                    | [Bootstrap][bootstrap]            | [GitHub][gh-bootstrap]       |            | [JS][js]     |             |
-| Front-end | Styling     | Components | Toolkit                    | [Bulma][bulma]                    | [GitHub][gh-bulma]           |            | [SASS][sass] |             |
-| Front-end | Styling     | Components | Toolkit                    | [Materialize CSS][materializecss] | [GitHub][gh-materialize-css] |            | [TS][ts]     |             |
-| Front-end | Styling     | Components | Toolkit                    | [shadcn/ui][shadcn]               | [GitHub][gh-shadcn-ui]       |            | [TS][ts]     |             |
-| Front-end | Styling     | Components | Toolkit                    | [UIKit][uikit]                    | [GitHub][gh-uikit]           |            | [SASS][sass] |             |
-
-[⬆️ Back to Table of Contents](#table-of-contents)
-
-### React Components
-
-| Industry  | Supersector | Sector     | Subsector  | Technology               | Open Source             | Maintainer       | Language | Recommended |
-| --------- | ----------- | ---------- | ---------- | ------------------------ | ----------------------- | ---------------- | -------- | ----------- |
-| Front-end | Styling     | Components | [JSX][jsx] | [Ant Design][ant-design] | [GitHub][gh-ant-design] |                  | [TS][ts] |             |
-| Front-end | Styling     | Components | [JSX][jsx] | [Chakra UI][chakra-ui]   | [GitHub][gh-chakra-ui]  |                  | [TS][ts] |             |
-| Front-end | Styling     | Components | [JSX][jsx] | [MUI][mui]               | [GitHub][gh-mui]        |                  | [TS][ts] |             |
-| Front-end | Styling     | Components | [JSX][jsx] | [NextUI][next-ui]        | [GitHub][gh-next-ui]    | [Vercel][vercel] | [TS][ts] |             |
-| Front-end | Styling     | Components | [JSX][jsx] | [Theme UI][theme-ui]     | [GitHub][gh-theme-ui]   |                  | [TS][ts] |             |
-
-[⬆️ Back to Table of Contents](#table-of-contents)
-
-### Native
-
-### Back-end Frameworks
-
-| Industry | Supersector | Sector    | Subsector | Technology             | Open Source         | Maintainer           | Language | Recommended |
-| -------- | ----------- | --------- | --------- | ---------------------- | ------------------- | -------------------- | -------- | ----------- |
-| Back-end | Framework   | RPC       |           | [gRPC][grpc]           | [GitHub][gh-grpc]   | [Alphabet][alphabet] | [TS][ts] |             |
-| Back-end | Framework   | RPC       |           | [tRPC][trpc]           | [GitHub][gh-trpc]   |                      | [TS][ts] | Recommended |
-| Back-end | Framework   | WebSocket |           | [Socket.io][socket.io] | [GitHub][gh-socket] |                      | [TS][ts] | Recommended |
-| Back-end | Framework   | WebSocket |           | [SockJS][sockjs]       | [GitHub][gh-sockjs] |                      | [JS][js] |             |
-| Back-end | Framework   | WebSocket |           | WS                     | [GitHub][gh-ws]     |                      | [JS][js] |             |
-
-[⬆️ Back to Table of Contents](#table-of-contents)
 
 ## Techstack
 
-| Industry    | Supersector        | Sector             | Subsector                  | Technology                                      | Open Source                    | Maintainer           | Language     | Recommended |
-| ----------- | ------------------ | ------------------ | -------------------------- | ----------------------------------------------- | ------------------------------ | -------------------- | ------------ | ----------- |
-| Development | OS                 | [Linux][kernel]    |                            | [Debian][debian]                                |                                |                      |              |             |
-| Development | OS                 | [Linux][kernel]    |                            | [Mint][linuxmint]                               |                                |                      |              |             |
-| Development | OS                 | [Linux][kernel]    |                            | [Ubuntu][ubuntu]                                |                                |                      |              |             |
-| Development | OS                 | Unix               |                            | [macOS][macos]                                  |                                | [Apple][apple]       |              |             |
-| Development | OS                 | OS/2               |                            | [Windows][windows]                              |                                | [Microsoft][ms]      |              |             |
-| Development | Software           | Version Control    |                            | [BitKeeper][bitkeeper]                          |                                |                      |              |             |
-| Development | Software           | Version Control    |                            | [Git][git]                                      |                                |                      |              |             |
-| Development | Software           | Version Control    |                            | [Mercurial][mercurial]                          |                                |                      |              |             |
-| Development | Software           | Version Control    |                            | [Helix Core][perforce-helix-core]               |                                | [Perforce][perforce] |              |             |
-| Development | Software           | Version Control    |                            | [SVN][apache-svn]                               |                                | [Apache][apache]     |              |             |
-| Development | Runtime Management | [Node.js][node.js] |                            | NVM (Node Version Management)                   | [GitHub][gh-nvm]               |                      | Shell        | Recommended |
-| Development | Development Tools  | Packages           | Security                   | [Snyk][snyk]                                    | [GitHub][gh-snyk]              |                      | [TS][ts]     | Recommended |
-| Development | Development Tools  | Packages           | Updates                    | [Renovate][renovate]                            | [GitHub][gh-renovate]          |                      | [TS][ts]     |             |
-| Development | Development Tools  | Git Hooks          |                            | [Husky][husky]                                  | [GitHub][gh-husky]             |                      | [JS][js]     |             |
-| Development | Development Tools  | Monorepo           |                            | [Bit][bit]                                      | [GitHub][gh-bit]               |                      | [TS][ts]     |             |
-| Development | Development Tools  | Monorepo           |                            | [NX][nx]                                        | [GitHub][gh-nx]                |                      | [TS][ts]     |             |
-| Development | Development Tools  | Monorepo           |                            | [Lerna][lerna]                                  | [GitHub][gh-lerna]             |                      | [TS][ts]     |             |
-| Development | Development Tools  | Monorepo           |                            | [pnpm Workspaces][pnpm-workspaces]              | [GitHub][gh-pnpm]              |                      | [TS][ts]     |             |
-| Development | Development Tools  | Monorepo           |                            | [Turbo][turbo]                                  | [GitHub][gh-vercel-turbo]      | [Vercel][vercel]     | [Rust][rs]   | Recommended |
-| Development | Development Tools  | Monorepo           |                            | [Yarn Workspaces][yarn-workspaces]              | [GitHub][gh-yarn]              |                      | [TS][ts]     |             |
-| Development | Development Tools  | Toolchain          |                            | [Biome][biome]                                  | [GitHub][gh-biome]             |                      | [Rust][rs]   |             |
-| Development | Development Tools  | Toolchain          |                            | [OXC][oxc]                                      | [GitHub][gh-oxc]               |                      | [Rust][rs]   |             |
-| Development | Development Tools  | Testing            | E2E Test                   | [Cypress][cypress]                              | [GitHub][gh-cypress]           |                      | [JS][js]     | Recommended |
-| Development | Development Tools  | Testing            | E2E Test                   | [Karma][karma]                                  | [GitHub][gh-karma]             |                      | [JS][js]     |             |
-| Development | Development Tools  | Testing            | E2E Test                   | [Playwright][playwright]                        | [GitHub][gh-ms-playwright]     | [Microsoft][ms]      | [TS][ts]     |             |
-| Development | Development Tools  | Testing            | E2E Test                   | [Puppeteer][puppeteer]                          | [GitHub][gh-puppeteer]         |                      | [TS][ts]     |             |
-| Development | Development Tools  | Testing            | E2E Test                   | [Selenium][selenium]                            | [GitHub][gh-selenium]          |                      | [Java][java] |             |
-| Development | Development Tools  | Testing            | E2E Test                   | [Storybook][storybook]                          | [GitHub][gh-storybook]         |                      | [TS][ts]     |             |
-| Development | Build Tools        | Bundler            |                            | [ESBuild][esbuild]                              | [GitHub][gh-esbuild]           |                      | [Go][go]     |             |
-| Development | Build Tools        | Bundler            |                            | [Parcel][parceljs]                              | [GitHub][gh-parcel]            |                      | [JS][js]     |             |
-| Development | Build Tools        | Bundler            |                            | [Rollup][rollup]                                | [GitHub][gh-rollup]            |                      | [JS][js]     |             |
-| Development | Build Tools        | Bundler            |                            | [Rspack][rspack]                                | [GitHub][gh-rspack]            |                      | [Rust][rs]   |             |
-| Development | Build Tools        | Bundler            |                            | [Webpack][webpack]                              | [GitHub][gh-webpack]           |                      | [JS][js]     | Recommended |
-| Development | Build Tools        | Compiler           |                            | [Babel][babel]                                  | [GitHub][gh-babel]             |                      | [TS][ts]     | Recommended |
-| Development | Build Tools        | Compiler           |                            | [SWC][swc]                                      | [GitHub][gh-swc]               |                      | [Rust][rs]   |             |
-| Front-end   | Tooling            |                    |                            | [Vite][vite]                                    | [GitHub][gh-vite]              |                      | [TS][ts]     |             |
-| Front-end   | Styling            | CSS                | Preprocessor               | [PostCSS][postcss]                              | [GitHub][gh-postcss]           |                      | [TS][ts]     |             |
-| Front-end   | Styling            | CSS                | Preprocessor               | [SASS][sass]                                    | [GitHub][gh-sass]              |                      | [TS][ts]     |             |
-| Front-end   | Styling            | CSS                | CSS-in-JS                  | [StyleX][stylex]                                | [GitHub][gh-meta-stylex]       | [Meta][meta]         | [JS][js]     |             |
-| Front-end   | Styling            | CSS                | CSS-in-JS                  | [emotion][emotion]                              | [GitHub][gh-emotion]           |                      | [JS][js]     |             |
-| Front-end   | Styling            | CSS                | CSS-in-JS                  | [styled-components][sc]                         | [GitHub][gh-styled-components] |                      | [TS][ts]     |             |
-| Front-end   | Styling            | CSS                | Utility                    | [TailwindCSS][tailwindcss]                      | [GitHub][gh-tailwind-css]      |                      | [TS][ts]     | Recommended |
-| Front-end   | Styling            | CSS                | Utility                    | [NativeWind][nativewind]                        | [GitHub][gh-nativewind]        |                      | [TS][ts]     |             |
-| Front-end   | Styling            | Components         | [TailwindCSS][tailwindcss] | [DaisyUI][daisyui]                              | [GitHub][gh-daisy-ui]          |                      | CSS          | Recommended |
-| Front-end   | Styling            | Components         | [TailwindCSS][tailwindcss] | [Flowbite](https://flowbite.com/)               |                                |                      |              |             |
-| Front-end   | Styling            | Components         | [TailwindCSS][tailwindcss] | [TailwindUI][tailwind-ui]                       | Freemium                       |                      |              |             |
-| Front-end   | Styling            | Components         | Toolkit                    | [Bootstrap][bootstrap]                          | [GitHub][gh-bootstrap]         |                      | [JS][js]     |             |
-| Front-end   | Styling            | Components         | Toolkit                    | [Bulma][bulma]                                  | [GitHub][gh-bulma]             |                      | [SASS][sass] |             |
-| Front-end   | Styling            | Components         | Toolkit                    | [Materialize CSS][materializecss]               | [GitHub][gh-materialize-css]   |                      | [TS][ts]     |             |
-| Front-end   | Styling            | Components         | Toolkit                    | [shadcn/ui][shadcn]                             | [GitHub][gh-shadcn-ui]         |                      | [TS][ts]     |             |
-| Front-end   | Styling            | Components         | Toolkit                    | [UIKit][uikit]                                  | [GitHub][gh-uikit]             |                      | [SASS][sass] |             |
-| Front-end   | Styling            | Components         | [JSX][jsx]                 | [Ant Design][ant-design]                        | [GitHub][gh-ant-design]        |                      | [TS][ts]     |             |
-| Front-end   | Styling            | Components         | [JSX][jsx]                 | [Chakra UI][chakra-ui]                          | [GitHub][gh-chakra-ui]         |                      | [TS][ts]     |             |
-| Front-end   | Styling            | Components         | [JSX][jsx]                 | [MUI][mui]                                      | [GitHub][gh-mui]               |                      | [TS][ts]     |             |
-| Front-end   | Styling            | Components         | [JSX][jsx]                 | [NextUI][next-ui]                               | [GitHub][gh-next-ui]           | [Vercel][vercel]     | [TS][ts]     |             |
-| Front-end   | Styling            | Components         | [JSX][jsx]                 | [Theme UI][theme-ui]                            | [GitHub][gh-theme-ui]          |                      | [TS][ts]     |             |
-| Front-end   | Chart              |                    |                            | [Chart.js][chart.js]                            | [GitHub][gh-chart-js]          |                      | [JS][js]     |             |
-| Front-end   | Chart              |                    |                            | [Chartist][chartist]                            | [GitHub][gh-chartist]          |                      | [TS][ts]     |             |
-| Front-end   | Chart              |                    |                            | [D3.js][d3]                                     | [GitHub][gh-d3]                |                      | [JS][js]     |             |
-| Front-end   | Chart              |                    |                            | [Google Chart][google-chart]                    | [GitHub][gh-google-chart]      | [Alphabet][alphabet] | [JS][js]     |             |
-| Front-end   | Chart              |                    |                            | [HighCharts][highcharts]                        | [GitHub][gh-highcharts]        |                      | [TS][ts]     |             |
-| Front-end   | Chart              |                    |                            | [Plotly.js][plotly.js]                          | [GitHub][gh-plotly]            |                      | [JS][js]     |             |
-| Front-end   | Chart              | [JSX][jsx]         |                            | [Recharts][recharts]                            | [GitHub][gh-recharts]          |                      | [TS][ts]     |             |
-| Front-end   | Chart              | [JSX][jsx]         |                            | [TanStack Chart][tanstack-charts]               | [GitHub][gh-tanstack-chart]    |                      | [TS][ts]     | Recommended |
-| Front-end   | Query              |                    |                            | [Apollo Client][apollo-client]                  | [GitHub][gh-apollo-client]     | [Apollo][apollo]     | [TS][ts]     |             |
-| Front-end   | Query              |                    |                            | [Axios][axios]                                  | [GitHub][gh-axios]             |                      | [JS][js]     |             |
-| Front-end   | Query              |                    |                            | [SWR][swr]                                      | [GitHub][gh-vercel-swr]        |                      | [TS][ts]     |             |
-| Front-end   | Query              | [JSX][jsx]         |                            | [TanStack Query][tanstack-query]                | [GitHub][gh-tanstack-query]    |                      | [TS][ts]     |             |
-| Front-end   | CLI                |                    |                            | [Commander](https://github.com/tj/commander.js) |                                |                      |              |             |
-| Front-end   | CLI                |                    |                            | [OCLIF](https://oclif.io/)                      |                                |                      |              |             |
-| Front-end   | CLI                |                    |                            | [Yargs](https://yargs.js.org/)                  |                                |                      |              |             |
-| Front-end   | Web                | Table              |                            | [TanStack Table][tanstack-table]                | [GitHub][gh-tanstack-table]    | [TanStack][tanstack] | [TS][ts]     |             |
-| Front-end   | Web                | State Management   |                            | [Redux][redux]                                  | [GitHub][gh-redux]             |                      | [TS][ts]     |             |
-| Front-end   | Web                | State Management   |                            | [XState][xstate]                                | [GitHub][gh-xstate]            |                      | [TS][ts]     |             |
-| Front-end   | Web                | State Management   |                            | [Jotai][jotai]                                  | [GitHub][gh-jotai]             | [Poimandres][pmndrs] | [TS][ts]     |             |
-| Front-end   | Web                | State Management   |                            | [Zustand][zustand]                              | [GitHub][gh-zustand]           | [Poimandres][pmndrs] | [TS][ts]     | Recommended |
-| Front-end   | Web                | [WebGL][webgl]     |                            | [three.js][three.js]                            | [GitHub][gh-three]             |                      | [JS][js]     |             |
-| Front-end   | Web                | DOM                |                            | [jQuery][jquery]                                | [GitHub][gh-jquery]            | [OpenJS][openjsf]    | [JS][js]     |             |
-| Front-end   | Web                | Components         |                            | [Lit][lit]                                      | [GitHub][gh-lit]               |                      | [TS][ts]     |             |
-| Front-end   | Library            | Logging            |                            | [Pino][pino]                                    | [GitHub][gh-pino]              |                      | [JS][js]     | Recommended |
-| Front-end   | Library            | Logging            |                            | Winston                                         | [GitHub][gh-winstonjs]         |                      | [JS][js]     |             |
-| Front-end   | Library            | Logging            |                            | npmlog                                          | [GitHub][gh-npmlog]            |                      | [JS][js]     |             |
-| Front-end   | Library            | Authentication     |                            | [JWT][jwt]                                      | [GitHub][gh-jwt]               |                      | [JS][js]     |             |
-| Front-end   | Library            | Authentication     |                            | [NextAuth][next-auth]                           | [GitHub][gh-next-auth]         |                      | [TS][ts]     |             |
-| Front-end   | Library            | Authentication     |                            | [BetterAuth][better-auth]                       |                                |                      |              |             |
-| Back-end    | Framework          | HTTP               | [Express.js][expressjs]    | [Helmet][helmet]                                | [GitHub][gh-helmet]            |                      | [TS][ts]     |             |
-| Back-end    | Framework          | HTTP               | [Express.js][expressjs]    | [CORS][cors]                                    | [GitHub][gh-cors]              |                      | [JS][js]     |             |
-| Back-end    | Framework          | HTTP               | [Express.js][expressjs]    | [tsoa][tsoa]                                    | [GitHub][gh-tsoa]              |                      | [TS][ts]     |             |
-| Back-end    | Framework          | HTTP               | [Express.js][expressjs]    | [Passport][passport]                            | [GitHub][gh-passport]          |                      | [JS][js]     |             |
-| Back-end    | Framework          | RPC                |                            | [gRPC][grpc]                                    | [GitHub][gh-grpc]              | [Alphabet][alphabet] | [TS][ts]     |             |
-| Back-end    | Framework          | RPC                |                            | [tRPC][trpc]                                    | [GitHub][gh-trpc]              |                      | [TS][ts]     | Recommended |
-| Back-end    | Framework          | WebSocket          |                            | [Socket.io][socket.io]                          | [GitHub][gh-socket]            |                      | [TS][ts]     | Recommended |
-| Back-end    | Framework          | WebSocket          |                            | [SockJS][sockjs]                                | [GitHub][gh-sockjs]            |                      | [JS][js]     |             |
-| Back-end    | Framework          | WebSocket          |                            | WS                                              | [GitHub][gh-ws]                |                      | [JS][js]     |             |
-| AI          | Library            | Mathematics        |                            | [Math.js][math.js]                              | [GitHub][gh-math]              |                      | [JS][js]     |             |
-| AI          | Library            | Machine Learning   |                            | [ml5][ml5]                                      | [GitHub][gh-ml5]               |                      | [JS][js]     |             |
-| AI          | Library            | Machine Learning   |                            | [TensorFlow.js][tensorflow.js]                  | [GitHub][gh-tensorflow]        |                      | [TS][ts]     | Recommended |
-| AI          | Deep Learning      | Neural Network     |                            | [Brain.js][brain.js]                            | [GitHub][gh-brain]             |                      | [TS][ts]     |             |
-| AI          | Deep Learning      | Neural Network     |                            | [Mind.js][mind.js]                              | [GitHub][gh-mind]              |                      | [JS][js]     |             |
-| AI          | Deep Learning      | Neural Network     |                            | [Synaptic.js][synaptic.js]                      | [GitHub][gh-synaptic]          |                      | [JS][js]     |             |
-| AI          | LLM                |                    |                            | [LangChain][langchain]                          |                                |                      |              |             |
-| AI          | Models             |                    |                            | [HuggingFace][huggingface]                      |                                | [Apache][apache]     |              |             |
+| Industry    | Supersector        | Sector             | Subsector               | Technology                       | Open Source                 | Maintainer           | Language   | Recommended |
+| ----------- | ------------------ | ------------------ | ----------------------- | -------------------------------- | --------------------------- | -------------------- | ---------- | ----------- |
+| Development | Runtime Management | [Node.js][node.js] |                         | NVM (Node Version Management)    | [GitHub][gh-nvm]            |                      | Shell      | Recommended |
+| Development | Development Tools  | Packages           | Security                | [Snyk][snyk]                     | [GitHub][gh-snyk]           |                      | [TS][ts]   | Recommended |
+| Development | Development Tools  | Packages           | Updates                 | [Renovate][renovate]             | [GitHub][gh-renovate]       |                      | [TS][ts]   |             |
+| Development | Development Tools  | Git Hooks          |                         | [Husky][husky]                   | [GitHub][gh-husky]          |                      | [JS][js]   |             |
+| Development | Development Tools  | Toolchain          |                         | [Biome][biome]                   | [GitHub][gh-biome]          |                      | [Rust][rs] |             |
+| Development | Development Tools  | Toolchain          |                         | [OXC][oxc]                       | [GitHub][gh-oxc]            |                      | [Rust][rs] |             |
+| Development | Build Tools        | Compiler           |                         | [Babel][babel]                   | [GitHub][gh-babel]          |                      | [TS][ts]   | Recommended |
+| Development | Build Tools        | Compiler           |                         | [SWC][swc]                       | [GitHub][gh-swc]            |                      | [Rust][rs] |             |
+| Front-end   | Tooling            |                    |                         | [Vite][vite]                     | [GitHub][gh-vite]           |                      | [TS][ts]   |             |
+| Front-end   | Query              |                    |                         | [Apollo Client][apollo-client]   | [GitHub][gh-apollo-client]  | [Apollo][apollo]     | [TS][ts]   |             |
+| Front-end   | Query              |                    |                         | [Axios][axios]                   | [GitHub][gh-axios]          |                      | [JS][js]   |             |
+| Front-end   | Query              |                    |                         | [SWR][swr]                       | [GitHub][gh-vercel-swr]     |                      | [TS][ts]   |             |
+| Front-end   | Query              | [JSX][jsx]         |                         | [TanStack Query][tanstack-query] | [GitHub][gh-tanstack-query] |                      | [TS][ts]   |             |
+| Front-end   | Web                | Table              |                         | [TanStack Table][tanstack-table] | [GitHub][gh-tanstack-table] | [TanStack][tanstack] | [TS][ts]   |             |
+| Front-end   | Web                | [WebGL][webgl]     |                         | [three.js][three.js]             | [GitHub][gh-three]          |                      | [JS][js]   |             |
+| Front-end   | Web                | DOM                |                         | [jQuery][jquery]                 | [GitHub][gh-jquery]         | [OpenJS][openjsf]    | [JS][js]   |             |
+| Front-end   | Web                | Components         |                         | [Lit][lit]                       | [GitHub][gh-lit]            |                      | [TS][ts]   |             |
+| Front-end   | Library            | Logging            |                         | [Pino][pino]                     | [GitHub][gh-pino]           |                      | [JS][js]   | Recommended |
+| Front-end   | Library            | Logging            |                         | Winston                          | [GitHub][gh-winstonjs]      |                      | [JS][js]   |             |
+| Front-end   | Library            | Logging            |                         | npmlog                           | [GitHub][gh-npmlog]         |                      | [JS][js]   |             |
+| Front-end   | Library            | Authentication     |                         | [JWT][jwt]                       | [GitHub][gh-jwt]            |                      | [JS][js]   |             |
+| Front-end   | Library            | Authentication     |                         | [NextAuth][next-auth]            | [GitHub][gh-next-auth]      |                      | [TS][ts]   |             |
+| Front-end   | Library            | Authentication     |                         | [BetterAuth][better-auth]        |                             |                      |            |             |
+| Back-end    | Framework          | HTTP               | [Express.js][expressjs] | [Helmet][helmet]                 | [GitHub][gh-helmet]         |                      | [TS][ts]   |             |
+| Back-end    | Framework          | HTTP               | [Express.js][expressjs] | [CORS][cors]                     | [GitHub][gh-cors]           |                      | [JS][js]   |             |
+| Back-end    | Framework          | HTTP               | [Express.js][expressjs] | [tsoa][tsoa]                     | [GitHub][gh-tsoa]           |                      | [TS][ts]   |             |
+| Back-end    | Framework          | HTTP               | [Express.js][expressjs] | [Passport][passport]             | [GitHub][gh-passport]       |                      | [JS][js]   |             |
+| AI          | Library            | Mathematics        |                         | [Math.js][math.js]               | [GitHub][gh-math]           |                      | [JS][js]   |             |
+| AI          | Library            | Machine Learning   |                         | [ml5][ml5]                       | [GitHub][gh-ml5]            |                      | [JS][js]   |             |
+| AI          | Library            | Machine Learning   |                         | [TensorFlow.js][tensorflow.js]   | [GitHub][gh-tensorflow]     |                      | [TS][ts]   | Recommended |
+| AI          | Deep Learning      | Neural Network     |                         | [Brain.js][brain.js]             | [GitHub][gh-brain]          |                      | [TS][ts]   |             |
+| AI          | Deep Learning      | Neural Network     |                         | [Mind.js][mind.js]               | [GitHub][gh-mind]           |                      | [JS][js]   |             |
+| AI          | Deep Learning      | Neural Network     |                         | [Synaptic.js][synaptic.js]       | [GitHub][gh-synaptic]       |                      | [JS][js]   |             |
+| AI          | LLM                |                    |                         | [LangChain][langchain]           |                             |                      |            |             |
+| AI          | Models             |                    |                         | [HuggingFace][huggingface]       |                             | [Apache][apache]     |            |             |
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
-## References
-
-1. [Awesome](https://github.com/topics/awesome)
-2. [Awesome JS](https://awesomejs.dev)
-3. [Best of JS](https://bestofjs.org)
-4. [Coding with Lewis](https://lewismenelaws.com)
-5. [Fireship](https://fireship.io)
-6. [Free for Dev](https://free-for.dev)
-7. [JavaScript Rising Stars](https://risingstars.js.org)
-8. [Mozilla Developer](https://developer.mozilla.org)
-9. [Roadmap](https://roadmap.sh)
-10. [State of JS](https://stateofjs.com)
-11. [Theo Browne - T3](https://t3.gg)
-12. [W3Schools](https://www.w3schools.com)
-13. [YouTube](https://www.youtube.com)
-
-[⬆️ Back to Table of Contents](#table-of-contents)
-
-[alphabet]: https://abc.xyz
-[angular]: https://angular.io
-[angular-ssr]: https://angular.dev/guide/ssr
-[angularjs]: https://angularjs.org
-[ant-design]: https://ant.design
 [apache]: https://apache.org
-[apache-activemq]: https://activemq.apache.org
-[apache-kafka]: https://kafka.apache.org
-[apache-svn]: https://subversion.apache.org
 [apollo]: https://www.apollographql.com
 [apollo-client]: https://www.apollographql.com/docs/react
-[apollo-server]: https://www.apollographql.com/docs/apollo-server
-[apple]: https://www.apple.com
-[astro]: https://astro.build
 [axios]: https://axios-http.com
-[aws]: https://aws.amazon.com
 [babel]: https://babeljs.io
-[backbone]: https://backbonejs.org
 [better-auth]: https://www.better-auth.com/
 [biome]: https://biomejs.dev
-[bit]: https://bit.dev
-[bitkeeper]: http://www.bitkeeper.org
-[bootstrap]: https://getbootstrap.com
 [brain.js]: https://brain.js.org
-[bulma]: https://bulma.io
-[bun]: https://bun.sh
-[bytedance]: https://www.bytedance.com/
-[capacitor.js]: https://capacitorjs.com/
-[chakra-ui]: https://chakra-ui.com
 [chart.js]: https://www.chartjs.org
 [chartist]: https://chartist.dev
 [cors]: https://expressjs.com/en/resources/middleware/cors.html
-[cypress]: https://www.cypress.io
 [d3]: https://d3js.org
-[daisyui]: https://daisyui.com
-[debian]: https://www.debian.org
-[deno]: https://deno.com
-[docsify]: https://docsify.js.org
-[docusaurus]: https://docusaurus.io
-[dprint]: https://dprint.dev
-[drizzle]: https://orm.drizzle.team
-[ecmascript]: https://ecma-international.org/publications-and-standards/standards/ecma-262
-[electronjs]: https://www.electronjs.org
 [emotion]: https://emotion.sh
-[ember]: https://emberjs.com
-[esbuild]: https://esbuild.github.io
-[eslint]: https://eslint.org
-[expo]: https://expo.dev
 [expressjs]: https://expressjs.com
-[fastify]: https://www.fastify.io
-[garph]: https://garph.dev
-[gatsbyjs]: https://gatsbyjs.org
-[git]: https://git-scm.com
-[github]: https://github.com
-[github-packages]: https://github.com/features/packages
-[go]: https://go.dev
 [google-chart]: https://developers.google.com/chart
-[graphql]: https://graphql.org
-[grpc]: https://grpc.io
-[hapi]: https://hapi.dev
 [helmet]: https://helmetjs.github.io
-[hermes]: https://hermesengine.dev
 [highcharts]: https://www.highcharts.com
 [huggingface]: https://huggingface.co
 [husky]: https://typicode.github.io/husky
-[ionic]: https://ionicframework.com
-[ionic-team]: https://github.com/ionic-team
-[jasmine]: https://jasmine.github.io
-[java]: https://www.java.com
-[jest]: https://jestjs.io
-[jotai]: https://jotai.org
 [jquery]: https://jquery.com
 [js]: https://www.javascript.com
-[jsc]: https://developer.apple.com/documentation/javascriptcore
-[jslint]: https://www.jslint.com
-[jsr]: https://jsr.i
 [jsx]: https://facebook.github.io/jsx
 [jwt]: https://jwt.io
-[karma]: https://karma-runner.github.io
-[kernel]: https://www.kernel.org
-[koa]: https://koajs.com
 [langchain]: https://www.langchain.com
-[lerna]: https://lerna.js.org
-[linuxmint]: https://linuxmint.com
 [lit]: https://lit.dev
 [macos]: https://www.apple.com/macos
-[markdown]: https://daringfireball.net/projects/markdown
 [materializecss]: https://materializecss.com
 [math.js]: https://mathjs.org
 [mercurial]: https://www.mercurial-scm.org
