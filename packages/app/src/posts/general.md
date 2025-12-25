@@ -85,11 +85,9 @@ date: '2025-05-01'
 
 ### Programming Languages
 
-|          | Language | Group           | Subgroup | Website                            | Note |
-| -------- | -------- | --------------- | -------- | ---------------------------------- | ---- |
-| Hardware | C++      | Microcontroller |          | [Arduino](https://www.arduino.cc/) |      |
-| Hardware | Python   | Mini Computer   |          | [Raspberry PI][raspberrypi]        |      |
-| Software | C++      | Front-end       |          | [Qt](https://www.qt.io/)           |      |
+|          | Language | Group     | Subgroup | Website                  | Note |
+| -------- | -------- | --------- | -------- | ------------------------ | ---- |
+| Software | C++      | Front-end |          | [Qt](https://www.qt.io/) |      |
 
 ### Programming Tools
 
@@ -101,8 +99,6 @@ date: '2025-05-01'
 - Diagrams
   - [Diagrams](https://www.diagrams.net/)
   - [Sequence Diagram](https://sequencediagram.org)
-
-[raspberrypi]: https://www.raspberrypi.com/
 
 ## Maslow's hierarchy of needs
 
@@ -217,10 +213,6 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 | Development | Development Tools  | Packages           | Security                | [Snyk][snyk]                     | [GitHub][gh-snyk]           |                      | [TS][ts] | Recommended |
 | Development | Development Tools  | Packages           | Updates                 | [Renovate][renovate]             | [GitHub][gh-renovate]       |                      | [TS][ts] |             |
 | Development | Development Tools  | Git Hooks          |                         | [Husky][husky]                   | [GitHub][gh-husky]          |                      | [JS][js] |             |
-| Front-end   | Query              |                    |                         | [Apollo Client][apollo-client]   | [GitHub][gh-apollo-client]  | [Apollo][apollo]     | [TS][ts] |             |
-| Front-end   | Query              |                    |                         | [Axios][axios]                   | [GitHub][gh-axios]          |                      | [JS][js] |             |
-| Front-end   | Query              |                    |                         | [SWR][swr]                       | [GitHub][gh-vercel-swr]     |                      | [TS][ts] |             |
-| Front-end   | Query              | [JSX][jsx]         |                         | [TanStack Query][tanstack-query] | [GitHub][gh-tanstack-query] |                      | [TS][ts] |             |
 | Front-end   | Web                | Table              |                         | [TanStack Table][tanstack-table] | [GitHub][gh-tanstack-table] | [TanStack][tanstack] | [TS][ts] |             |
 | Front-end   | Web                | [WebGL][webgl]     |                         | [three.js][three.js]             | [GitHub][gh-three]          |                      | [JS][js] |             |
 | Front-end   | Web                | DOM                |                         | [jQuery][jquery]                 | [GitHub][gh-jquery]         | [OpenJS][openjsf]    | [JS][js] |             |
