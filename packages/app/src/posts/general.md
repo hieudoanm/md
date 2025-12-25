@@ -14,13 +14,9 @@ date: '2025-05-01'
   - [Programming Languages](#programming-languages)
   - [Programming Tools](#programming-tools)
 - [Maslow's hierarchy of needs](#maslows-hierarchy-of-needs)
-- [Mathematics](#mathematics)
-  - [Perfect Numbers](#perfect-numbers)
+- [Mathematics (Perfect Numbers)](#mathematics-perfect-numbers)
 - [API](#api)
-- [Techstack](#techstack)
-  - [Full-stack](#full-stack)
-    - [`@next-stack/ui`](#next-stackui)
-      - [Components](#components)
+- [UI](#ui)
 - [TechStack List](#techstack-list)
 
 ## Bookmarks
@@ -159,9 +155,7 @@ date: '2025-05-01'
   - Experience Purpose
   - Meaning and Inner Potential
 
-## Mathematics
-
-### Perfect Numbers
+## Mathematics (Perfect Numbers)
 
 A perfect number is a positive integer that is equal to the sum of its positive factors, excluding the number itself. There is currently 51 numbers.
 
@@ -191,38 +185,29 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 | 09  | Weather   | [Open Meteo](https://open-meteo.com/)           |
 | 10  | Weather   | [Open Weather Map](https://openweathermap.org/) |
 
-## Techstack
+## UI
 
-### Full-stack
-
-#### `@next-stack/ui`
-
-- [TanStack](https://tanstack.com/)
-  - [Charts](https://react-charts.tanstack.com/)
-  - [Form](https://tanstack.com/form/latest)
-  - [Ranger](https://tanstack.com/ranger/latest)
-  - [Table](https://tanstack.com/table/latest)
-  - [Virtual](https://tanstack.com/virtual/latest)
-
-##### Components
-
-| Group      | Component |
-| ---------- | --------- |
-| Form       | Button    |
-| Form       | Input     |
-| Form       | Textarea  |
-| Form       | Select    |
-| Form       | Checkbox  |
-| Form       | Radio     |
-| Form       | Toggle    |
-| Form       | Label     |
-| Typography | h1        |
-| Typography | h2        |
-| Typography | h3        |
-| Typography | h4        |
-| Typography | h5        |
-| Typography | h6        |
-| Typography | p         |
+| Group                                    | Component                                      |
+| ---------------------------------------- | ---------------------------------------------- |
+| [Form](https://tanstack.com/form/latest) | Button                                         |
+| [Form](https://tanstack.com/form/latest) | Input                                          |
+| [Form](https://tanstack.com/form/latest) | Textarea                                       |
+| [Form](https://tanstack.com/form/latest) | Select                                         |
+| [Form](https://tanstack.com/form/latest) | Checkbox                                       |
+| [Form](https://tanstack.com/form/latest) | Radio                                          |
+| [Form](https://tanstack.com/form/latest) | Toggle                                         |
+| [Form](https://tanstack.com/form/latest) | Label                                          |
+| Typography                               | h1                                             |
+| Typography                               | h2                                             |
+| Typography                               | h3                                             |
+| Typography                               | h4                                             |
+| Typography                               | h5                                             |
+| Typography                               | h6                                             |
+| Typography                               | p                                              |
+| [TanStack](https://tanstack.com/)        | [Charts](https://react-charts.tanstack.com/)   |
+| [TanStack](https://tanstack.com/)        | [Ranger](https://tanstack.com/ranger/latest)   |
+| [TanStack](https://tanstack.com/)        | [Table](https://tanstack.com/table/latest)     |
+| [TanStack](https://tanstack.com/)        | [Virtual](https://tanstack.com/virtual/latest) |
 
 ## TechStack List
 
