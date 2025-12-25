@@ -19,16 +19,11 @@ date: '2025-05-01'
 - [API](#api)
   - [Other](#other)
 - [Chip](#chip)
-  - [Comparisons](#comparisons)
   - [Companies](#companies)
 - [Techstack](#techstack)
-  - [Development](#development)
-    - [`@next-stack/cli`](#next-stackcli)
   - [Full-stack](#full-stack)
     - [`@next-stack/ui`](#next-stackui)
       - [Components](#components)
-  - [SaaS (Software as a Service)](#saas-software-as-a-service)
-    - [`@next-stack/other`](#next-stackother)
 - [Ecosystem](#ecosystem)
 - [Inspired By](#inspired-by)
   - [JavaScript / TypeScript](#javascript--typescript)
@@ -211,14 +206,6 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 
 ## Chip
 
-### Comparisons
-
-- Computer processors: Intel vs AMD
-- Smartphone chips: Apple vs Snapdragon
-- Graphics cards: NVIDIA vs AMD GPU
-- Embedded Systems or Microcontrollers: ESP32 vs Raspberry Pi Pico
-- AI accelerator chips: NVIDIA vs Google TPU
-
 ### Companies
 
 - Samsung
@@ -233,12 +220,6 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 - Advanced Micro Devices (AMD)
 
 ## Techstack
-
-### Development
-
-#### `@next-stack/cli`
-
-- [Create T3 App](https://create.t3.gg/)
 
 ### Full-stack
 
@@ -271,12 +252,6 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 | Typography | h6        |
 | Typography | p         |
 
-### SaaS (Software as a Service)
-
-#### `@next-stack/other`
-
-1. [1.1.1.1](https://one.one.one.one/)
-
 ## Ecosystem
 
 | #   | Type         | Google                            | Microsoft  | Best    |
@@ -297,7 +272,6 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 ### JavaScript / TypeScript
 
 1. [Create T3 App](https://create.t3.gg/)
-2. [TanStack](https://tanstack.com/)
 
 [js]: https://www.javascript.com
 
@@ -345,8 +319,6 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 | AI          | Deep Learning      | Neural Network     |                         | [Synaptic.js][synaptic.js]       | [GitHub][gh-synaptic]       |                      | [JS][js]   |             |
 | AI          | LLM                |                    |                         | [LangChain][langchain]           |                             |                      |            |             |
 | AI          | Models             |                    |                         | [HuggingFace][huggingface]       |                             | [Apache][apache]     |            |             |
-
-[⬆️ Back to Table of Contents](#table-of-contents)
 
 [apache]: https://apache.org
 [apollo]: https://www.apollographql.com
