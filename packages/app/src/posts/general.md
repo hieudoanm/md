@@ -16,16 +16,12 @@ date: '2025-05-01'
 - [Maslow's hierarchy of needs](#maslows-hierarchy-of-needs)
 - [Mathematics](#mathematics)
   - [Perfect Numbers](#perfect-numbers)
-  - [Other](#other)
-- [Chip](#chip)
-  - [Companies](#companies)
+- [API](#api)
 - [Techstack](#techstack)
   - [Full-stack](#full-stack)
     - [`@next-stack/ui`](#next-stackui)
       - [Components](#components)
-- [Inspired By](#inspired-by)
-  - [JavaScript / TypeScript](#javascript--typescript)
-- [Techstack List](#techstack-list)
+- [TechStack List](#techstack-list)
 
 ## Bookmarks
 
@@ -182,7 +178,7 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 | 9   | 2,658,455,991,569,831,744,654,692,615,953,842,176                       |
 | 10  | 191,561,942,608,236,107,294,793,378,084,303,638,130,997,321,548,169,216 |
 
-### Other
+## API
 
 | No  | Category  | API                                             |
 | --- | --------- | ----------------------------------------------- |
@@ -194,21 +190,6 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 | 08  | Weather   | [Air Visual](https://api-docs.iqair.com/)       |
 | 09  | Weather   | [Open Meteo](https://open-meteo.com/)           |
 | 10  | Weather   | [Open Weather Map](https://openweathermap.org/) |
-
-## Chip
-
-### Companies
-
-- Samsung
-- NVIDIA Corp. (NVDA)
-- Taiwan Semiconductor Manufacturing Co. Ltd. (TSM)
-- Intel Corp. (INTC)
-- Broadcom Inc. (AVGO)
-- Qualcomm Inc. (QCOM)
-- SK Hynix Inc. (000660.KS)
-- ASML Holding NV (ASML)
-- Applied Materials Inc. (AMAT)
-- Advanced Micro Devices (AMD)
 
 ## Techstack
 
@@ -243,15 +224,7 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 | Typography | h6        |
 | Typography | p         |
 
-## Inspired By
-
-### JavaScript / TypeScript
-
-1. [Create T3 App](https://create.t3.gg/)
-
-[js]: https://www.javascript.com
-
-## Techstack List
+## TechStack List
 
 | Industry    | Supersector        | Sector             | Subsector               | Technology                       | Open Source                 | Maintainer           | Language   | Recommended |
 | ----------- | ------------------ | ------------------ | ----------------------- | -------------------------------- | --------------------------- | -------------------- | ---------- | ----------- |
