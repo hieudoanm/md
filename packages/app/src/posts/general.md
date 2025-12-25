@@ -211,49 +211,36 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 
 ## TechStack List
 
-| Industry    | Supersector        | Sector             | Subsector               | Technology                       | Open Source                 | Maintainer           | Language   | Recommended |
-| ----------- | ------------------ | ------------------ | ----------------------- | -------------------------------- | --------------------------- | -------------------- | ---------- | ----------- |
-| Development | Runtime Management | [Node.js][node.js] |                         | NVM (Node Version Management)    | [GitHub][gh-nvm]            |                      | Shell      | Recommended |
-| Development | Development Tools  | Packages           | Security                | [Snyk][snyk]                     | [GitHub][gh-snyk]           |                      | [TS][ts]   | Recommended |
-| Development | Development Tools  | Packages           | Updates                 | [Renovate][renovate]             | [GitHub][gh-renovate]       |                      | [TS][ts]   |             |
-| Development | Development Tools  | Git Hooks          |                         | [Husky][husky]                   | [GitHub][gh-husky]          |                      | [JS][js]   |             |
-| Development | Development Tools  | Toolchain          |                         | [Biome][biome]                   | [GitHub][gh-biome]          |                      | [Rust][rs] |             |
-| Development | Development Tools  | Toolchain          |                         | [OXC][oxc]                       | [GitHub][gh-oxc]            |                      | [Rust][rs] |             |
-| Development | Build Tools        | Compiler           |                         | [Babel][babel]                   | [GitHub][gh-babel]          |                      | [TS][ts]   | Recommended |
-| Development | Build Tools        | Compiler           |                         | [SWC][swc]                       | [GitHub][gh-swc]            |                      | [Rust][rs] |             |
-| Front-end   | Tooling            |                    |                         | [Vite][vite]                     | [GitHub][gh-vite]           |                      | [TS][ts]   |             |
-| Front-end   | Query              |                    |                         | [Apollo Client][apollo-client]   | [GitHub][gh-apollo-client]  | [Apollo][apollo]     | [TS][ts]   |             |
-| Front-end   | Query              |                    |                         | [Axios][axios]                   | [GitHub][gh-axios]          |                      | [JS][js]   |             |
-| Front-end   | Query              |                    |                         | [SWR][swr]                       | [GitHub][gh-vercel-swr]     |                      | [TS][ts]   |             |
-| Front-end   | Query              | [JSX][jsx]         |                         | [TanStack Query][tanstack-query] | [GitHub][gh-tanstack-query] |                      | [TS][ts]   |             |
-| Front-end   | Web                | Table              |                         | [TanStack Table][tanstack-table] | [GitHub][gh-tanstack-table] | [TanStack][tanstack] | [TS][ts]   |             |
-| Front-end   | Web                | [WebGL][webgl]     |                         | [three.js][three.js]             | [GitHub][gh-three]          |                      | [JS][js]   |             |
-| Front-end   | Web                | DOM                |                         | [jQuery][jquery]                 | [GitHub][gh-jquery]         | [OpenJS][openjsf]    | [JS][js]   |             |
-| Front-end   | Web                | Components         |                         | [Lit][lit]                       | [GitHub][gh-lit]            |                      | [TS][ts]   |             |
-| Front-end   | Library            | Logging            |                         | [Pino][pino]                     | [GitHub][gh-pino]           |                      | [JS][js]   | Recommended |
-| Front-end   | Library            | Logging            |                         | Winston                          | [GitHub][gh-winstonjs]      |                      | [JS][js]   |             |
-| Front-end   | Library            | Logging            |                         | npmlog                           | [GitHub][gh-npmlog]         |                      | [JS][js]   |             |
-| Front-end   | Library            | Authentication     |                         | [JWT][jwt]                       | [GitHub][gh-jwt]            |                      | [JS][js]   |             |
-| Front-end   | Library            | Authentication     |                         | [NextAuth][next-auth]            | [GitHub][gh-next-auth]      |                      | [TS][ts]   |             |
-| Front-end   | Library            | Authentication     |                         | [BetterAuth][better-auth]        |                             |                      |            |             |
-| Back-end    | Framework          | HTTP               | [Express.js][expressjs] | [Helmet][helmet]                 | [GitHub][gh-helmet]         |                      | [TS][ts]   |             |
-| Back-end    | Framework          | HTTP               | [Express.js][expressjs] | [CORS][cors]                     | [GitHub][gh-cors]           |                      | [JS][js]   |             |
-| Back-end    | Framework          | HTTP               | [Express.js][expressjs] | [tsoa][tsoa]                     | [GitHub][gh-tsoa]           |                      | [TS][ts]   |             |
-| Back-end    | Framework          | HTTP               | [Express.js][expressjs] | [Passport][passport]             | [GitHub][gh-passport]       |                      | [JS][js]   |             |
-| AI          | Library            | Mathematics        |                         | [Math.js][math.js]               | [GitHub][gh-math]           |                      | [JS][js]   |             |
-| AI          | Library            | Machine Learning   |                         | [ml5][ml5]                       | [GitHub][gh-ml5]            |                      | [JS][js]   |             |
-| AI          | Library            | Machine Learning   |                         | [TensorFlow.js][tensorflow.js]   | [GitHub][gh-tensorflow]     |                      | [TS][ts]   | Recommended |
-| AI          | Deep Learning      | Neural Network     |                         | [Brain.js][brain.js]             | [GitHub][gh-brain]          |                      | [TS][ts]   |             |
-| AI          | Deep Learning      | Neural Network     |                         | [Mind.js][mind.js]               | [GitHub][gh-mind]           |                      | [JS][js]   |             |
-| AI          | Deep Learning      | Neural Network     |                         | [Synaptic.js][synaptic.js]       | [GitHub][gh-synaptic]       |                      | [JS][js]   |             |
-| AI          | LLM                |                    |                         | [LangChain][langchain]           |                             |                      |            |             |
-| AI          | Models             |                    |                         | [HuggingFace][huggingface]       |                             | [Apache][apache]     |            |             |
+| Industry    | Supersector        | Sector             | Subsector               | Technology                       | Open Source                 | Maintainer           | Language | Recommended |
+| ----------- | ------------------ | ------------------ | ----------------------- | -------------------------------- | --------------------------- | -------------------- | -------- | ----------- |
+| Development | Runtime Management | [Node.js][node.js] |                         | NVM (Node Version Management)    | [GitHub][gh-nvm]            |                      | Shell    | Recommended |
+| Development | Development Tools  | Packages           | Security                | [Snyk][snyk]                     | [GitHub][gh-snyk]           |                      | [TS][ts] | Recommended |
+| Development | Development Tools  | Packages           | Updates                 | [Renovate][renovate]             | [GitHub][gh-renovate]       |                      | [TS][ts] |             |
+| Development | Development Tools  | Git Hooks          |                         | [Husky][husky]                   | [GitHub][gh-husky]          |                      | [JS][js] |             |
+| Front-end   | Query              |                    |                         | [Apollo Client][apollo-client]   | [GitHub][gh-apollo-client]  | [Apollo][apollo]     | [TS][ts] |             |
+| Front-end   | Query              |                    |                         | [Axios][axios]                   | [GitHub][gh-axios]          |                      | [JS][js] |             |
+| Front-end   | Query              |                    |                         | [SWR][swr]                       | [GitHub][gh-vercel-swr]     |                      | [TS][ts] |             |
+| Front-end   | Query              | [JSX][jsx]         |                         | [TanStack Query][tanstack-query] | [GitHub][gh-tanstack-query] |                      | [TS][ts] |             |
+| Front-end   | Web                | Table              |                         | [TanStack Table][tanstack-table] | [GitHub][gh-tanstack-table] | [TanStack][tanstack] | [TS][ts] |             |
+| Front-end   | Web                | [WebGL][webgl]     |                         | [three.js][three.js]             | [GitHub][gh-three]          |                      | [JS][js] |             |
+| Front-end   | Web                | DOM                |                         | [jQuery][jquery]                 | [GitHub][gh-jquery]         | [OpenJS][openjsf]    | [JS][js] |             |
+| Front-end   | Web                | Components         |                         | [Lit][lit]                       | [GitHub][gh-lit]            |                      | [TS][ts] |             |
+| Front-end   | Library            | Logging            |                         | [Pino][pino]                     | [GitHub][gh-pino]           |                      | [JS][js] | Recommended |
+| Front-end   | Library            | Logging            |                         | Winston                          | [GitHub][gh-winstonjs]      |                      | [JS][js] |             |
+| Front-end   | Library            | Logging            |                         | npmlog                           | [GitHub][gh-npmlog]         |                      | [JS][js] |             |
+| Front-end   | Library            | Authentication     |                         | [JWT][jwt]                       | [GitHub][gh-jwt]            |                      | [JS][js] |             |
+| Front-end   | Library            | Authentication     |                         | [NextAuth][next-auth]            | [GitHub][gh-next-auth]      |                      | [TS][ts] |             |
+| Front-end   | Library            | Authentication     |                         | [BetterAuth][better-auth]        |                             |                      |          |             |
+| Back-end    | Framework          | HTTP               | [Express.js][expressjs] | [Helmet][helmet]                 | [GitHub][gh-helmet]         |                      | [TS][ts] |             |
+| Back-end    | Framework          | HTTP               | [Express.js][expressjs] | [CORS][cors]                     | [GitHub][gh-cors]           |                      | [JS][js] |             |
+| Back-end    | Framework          | HTTP               | [Express.js][expressjs] | [tsoa][tsoa]                     | [GitHub][gh-tsoa]           |                      | [TS][ts] |             |
+| Back-end    | Framework          | HTTP               | [Express.js][expressjs] | [Passport][passport]             | [GitHub][gh-passport]       |                      | [JS][js] |             |
+| AI          | Library            | Mathematics        |                         | [Math.js][math.js]               | [GitHub][gh-math]           |                      | [JS][js] |             |
 
 [apache]: https://apache.org
 [apollo]: https://www.apollographql.com
 [apollo-client]: https://www.apollographql.com/docs/react
 [axios]: https://axios-http.com
-[babel]: https://babeljs.io
 [better-auth]: https://www.better-auth.com/
 [biome]: https://biomejs.dev
 [brain.js]: https://brain.js.org
@@ -367,7 +354,6 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 [uikit]: https://getuikit.com
 [v8]: https://v8.dev
 [vercel]: https://vercel.com
-[vite]: https://vitejs.dev
 [vitest]: https://vitest.dev
 [volt]: https://voltpkg.com
 [webgl]: https://get.webgl.org
@@ -506,33 +492,6 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 [gh-redux]: https://github.com/reduxjs/redux
 [gh-vercel-next]: https://github.com/vercel/next.js
 [gh-vercel-swr]: https://github.com/vercel/swr
-[gh-vercel-turbo]: https://github.com/vercel/turbo
-[gh-jsr]: https://github.com/jsr-io/jsr
-[gh-volt]: https://github.com/dimensionhq/volt
-[gh-apache-activemq]: https://github.com/apache/activemq
-[gh-apache-kafka]: https://github.com/apache/kafka
-[gh-rabbitmq]: https://github.com/rabbitmq
-[gh-sass]: https://github.com/sass/sass
-[gh-postcss]: https://github.com/postcss/postcss
-[gh-winterjs]: https://github.com/wasmerio/winterjs
-[gh-rspack]: https://github.com/web-infra-dev/rspack
-[gh-svelte-native]: https://github.com/halfnelson/svelte-native
-[gh-meteor]: https://github.com/meteor/meteor
-[gh-quasar]: https://github.com/quasarframework/quasar
-[gh-nats]: https://github.com/nats-io/nats-server
-[gh-bit]: https://github.com/teambit/bit
-[gh-oxc]: https://github.com/oxc-project/oxc
-[gh-npm-cli]: https://github.com/npm/cli
-[gh-swc]: https://github.com/swc-project/swc
-[gh-koa]: https://github.com/koajs/koa
-[gh-garph]: https://github.com/stepci/garph
-[gh-ws]: https://github.com/websockets/ws
-[gh-sockjs]: https://github.com/sockjs
-[gh-jslint]: https://github.com/jslint-org/jslint
-[gh-standardjs]: https://github.com/standard/standard
-[gh-millionlint]: https://github.com/aidenybai/million
-[gh-chartist]: https://github.com/chartist-js/chartist
-[gh-highcharts]: https://github.com/highcharts/highcharts
 [gh-helmet]: https://github.com/helmetjs/helmet
 [gh-cors]: https://github.com/expressjs/cors
 [gh-tsoa]: https://github.com/lukeautry/tsoa
