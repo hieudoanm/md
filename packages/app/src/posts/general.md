@@ -26,7 +26,6 @@ date: '2025-05-01'
 - [Strava](https://www.strava.com/)
 - [Mobbin](https://mobbin.com)
 - [Pinterest](https://www.pinterest.com/)
-- [Coolors](https://coolors.co/)
 - Platform
   - [LinkedIn Learning](https://www.linkedin.com/learning/)
   - [Udacity](https://www.udacity.com/)
